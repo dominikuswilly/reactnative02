@@ -1,11 +1,15 @@
 os: linux
 language: android
 before_install:
-- nvm install 6
+- nvm install 6.17.1
 - node --version
 jdk: oraclejdk8
 cache: 
   yarn: true
+addons:
+  apt:
+    packages:
+      ant
 # android:
 #   components:
 #     - platform-tools
