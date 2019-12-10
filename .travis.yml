@@ -22,4 +22,5 @@ addons:
 #     - extra-google-m2repository
 #     - extra-google-google_play_services
 script:  
+- npm install
 - cd android && ./gradlew assembleRelease
