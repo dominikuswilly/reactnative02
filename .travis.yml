@@ -11,7 +11,8 @@ install:
 - yarn install
 jdk: oraclejdk8
 sudo: required
-cache: true
+cache: 
+  yarn: true
 # android:
 #   components:
 #     - platform-tools
