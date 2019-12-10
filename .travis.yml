@@ -21,6 +21,6 @@ addons:
 #     - extra-android-m2repository
 #     - extra-google-m2repository
 #     - extra-google-google_play_services
-# script: 
-# - npm run ci 
-# - cd android && ./gradlew assembleRelease
+script: 
+- npm run ci 
+- cd android && ./gradlew assembleRelease
